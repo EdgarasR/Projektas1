@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/062/584/original/abstract-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-and-engineering-concept-illustration-vector.jpg");
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

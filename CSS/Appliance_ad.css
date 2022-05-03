@@ -1,0 +1,15 @@
+img {
+    width: 395px;
+    height: 320px;
+}
+div p {
+    font-size: x-large;
+}
+#price {
+    position:absolute;
+    bottom: 420px;
+    color:red;
+}
+span, h1{
+    font-weight: bold;
+}

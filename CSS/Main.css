@@ -1,0 +1,72 @@
+body {
+    background-color:gainsboro;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+.divs{
+    margin-bottom:5px;
+}
+.divs:nth-of-type(even){
+    background:rgb(181, 193, 209);
+    outline: 1px solid black;
+}
+h1, h2 {
+    margin: 30px 0;
+}
+.container-fluid, .container{
+    margin: 50px auto;
+    height: 100px;
+}
+.container-fluid:nth-child(1) {
+    margin-top: 60px;
+}
+img {
+    height:120px;
+    width: 190px;
+    outline: 1px solid black;
+}
+h4 {
+    position: relative;
+    top: 5px;
+}
+h3 {
+    border-bottom: 1px solid black;
+}
+.main_divs {
+    display: inline-block;
+    position: relative;
+}
+.main_divs img {
+    width: 240px;
+    height: 200px;
+    outline: none;
+    border-radius: 5%;
+    transition: transform 500ms ease 0ms,
+                box-shadow 500ms ease 0ms;
+}
+.main_divs img:hover {
+    cursor: pointer;
+    transition: transform 500ms ease 0ms,
+                box-shadow 500ms ease 0ms;
+    transform: scale(1.1);
+    box-shadow: 8px 8px 15px 3px black;
+}
+.main_divs:nth-child(3) {
+    left: 800px;
+    bottom: 200px;
+}
+.main_div {
+    position: relative;
+    top: 250px;
+    margin-left: 65px;
+}
+.main_h1 {
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+form {
+    font-weight: bold;
+}

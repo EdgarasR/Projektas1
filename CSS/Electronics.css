@@ -1,0 +1,12 @@
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+img {
+    height:120px;
+    width: 150px;
+    outline: 1px solid black;
+}
+.col-md-2 {
+    width:150px;
+}
